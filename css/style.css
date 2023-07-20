@@ -579,7 +579,10 @@ body{
         left: 0;
         display: block;
     }
-    .border-1,
+    .border-1{
+        margin-left: -20px;
+        border: none;
+    }
     .contacts__inner{
         border: none;
     }
@@ -644,6 +647,12 @@ body{
 
 
 @media (max-width:768px){
+    .menu{
+        width: 100%;
+        position: absolute;
+        z-index: 9999;
+        height: 100%;
+    }
     .title{
         font-size: 66px;
     }
@@ -732,10 +741,5 @@ body{
     .features__text{
         font-size: 32px;
     }
-    .menu{
-        width: 100%;
-        position: absolute;
-        z-index: 9999;
-        height: 100%;
-    }
+
 }
