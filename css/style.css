@@ -52,6 +52,7 @@ button{
 .section-title{
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 16px;
 }
 
 body{
@@ -108,12 +109,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
+    margin-top: -80px;
 }
 .title{
-    padding-top: 16%;
+    padding-top: 10%;
     font-size: 96px;
-    margin-bottom: 10px;
     font-weight: 400;
+    margin-bottom: -30px;
 }
 .subtitle{
     font-size: 36px;
@@ -163,6 +165,7 @@ body{
     background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250 ,0.93) 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    margin-top: 10px;
 }
 .tabs{
     display: grid;
@@ -202,13 +205,19 @@ body{
 }
 .tabs__content-img{
     grid-row: 1/-1;
+    width: 580px;
+    height: 300px;
     align-self: stretch;
     object-fit: cover;
 }
 .tabs__content-box h3{ 
     font-weight: 400;
     font-size: 24px;
+    margin-top: -5px;
     margin-bottom: 5px;
+}
+.tabs__content-text{
+    font-size: 16px;
 }
 .video{
     grid-column: 2/3;
@@ -223,6 +232,7 @@ body{
     justify-content: end;
     align-items: flex-start;
     padding: 9px 10px;
+    margin-top: -40px;
 }
 
 .video__btn{
@@ -253,6 +263,10 @@ body{
         -webkit-text-fill-color: transparent;
     font-size: 36px;
     margin-bottom: 10px;
+    line-height: 1;
+}
+.equipment__box-text{
+    margin-top: 2px;
 }
 .game__descr-text{
     margin-bottom: 24px;
@@ -307,6 +321,7 @@ body{
 .buy .buy-btn{
     margin: 0 auto;
 }
+
 .buy__bg{
     background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250 ,0.93) 100%);
         -webkit-background-clip: text;
@@ -350,7 +365,6 @@ body{
     line-height: 50px;
     font-size: 36px;
 }
-
 .equipment__box-item--one{
     grid-row: 1/-1;
 }
@@ -360,6 +374,7 @@ body{
         -webkit-text-fill-color: transparent;
     font-size: 36px;
     text-transform: uppercase;
+    margin-left: 15px;
 }
 .promo{
     margin-bottom: 100px;
@@ -391,7 +406,7 @@ body{
     margin: 0 auto;
 }
 .accessories{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 .accessories__title{
     margin-bottom: 30px;
@@ -505,6 +520,9 @@ body{
     border-bottom: 1px solid #CACAD6;
     margin-bottom: 44px;
     padding: 30px 0;
+}
+.old{
+    margin-top: -5px;
 }
 
 .social{
@@ -625,6 +643,7 @@ body{
     .equipment__box{
         display: block;
     }
+
     .equipment__box-img{
         width: 100%;
     }
