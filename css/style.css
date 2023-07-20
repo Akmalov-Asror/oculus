@@ -63,6 +63,7 @@ body{
     color: #5C5C5E;
     min-width: 320px;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 
 .header{
@@ -731,6 +732,7 @@ body{
 @media (max-width:420px){
     .title{
         font-size: 48px;
+        padding-top: 100px;
     }
     .subtitle{
         font-size: 20px;
